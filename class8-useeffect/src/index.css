@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:whitesmoke;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width:100%;
+}
+
+body{
+  background-color: #111;
+  margin: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: gray;
+}
