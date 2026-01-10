@@ -1,0 +1,38 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: white;
+ }
+ 
+ html, body {
+   font-family: 'Poppins', sans-serif;
+   height: 100%;
+   width:100%;
+ }
+
+ body{
+  background-color: black;
+ }
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+}
+.nav{
+    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(17, 18, 102);
+}
+
+
+.nav div{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
